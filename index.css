@@ -1,0 +1,72 @@
+
+
+/*Type Selector - select the name of the tag*/
+h1 {
+	color:  yellow;
+	font-size: 100px;
+}
+
+
+p {
+	color: violet;
+}
+
+/*Universal Selector - used to target all elements using the "*" symbol*/
+
+* {
+	font-family: "Courier New", monospace;
+}
+
+/*ID Selector - target the attribute id 
+Syntax:  to access id use "#";
+#id-name*/
+
+#motto {
+	letter-spacing: 5px;
+}
+
+h3 {
+	letter-spacing:  25px;
+}
+
+/*Class Selector - target the attribute class
+We used "class" if we want to target similar styling
+Syntax:  to access class use ".";
+
+.class-name
+*/
+
+.offering-item {
+text-transform:  uppercase;
+
+}
+
+/*Attribute Selector - target the specific attribute of tag
+
+The attribute selector only works based on the exact attribute syntax provided in the HTML tag
+syntax:
+
+tagname [attribute]
+*/
+
+/*no space to "input[required]"*/
+input[required] {
+	border-width: 2px;
+	border-style: solid;
+	border-color: navy;
+
+}
+
+
+
+
+/*
+Selector specificity
+
+ID (Highest priority)
+class
+attribute
+type
+universal (Lowest priority)
+
+*/

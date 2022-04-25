@@ -25,8 +25,19 @@
 
 	<body>
 
+		<nav id="top">
+			
+			<a href="#landing">PCF</a>
+			<div>
+				<a href="#landing">Landing</a>
+				<a href="#register">Register</a>
+			</div>
+		</nav>
+
+
+
 		<!-- Inline styling (Highest Priority) -->
-		<h1 style="color: red; font-size: 100px">Hello World</h1>
+		<h1 style="color: red; font-size: 100px">Hello Manong Don</h1>
 
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -37,37 +48,54 @@
 
 		<hr>
 
-		<h2>Welcome to PCF!</h2>
-		<h3 id="motto">A friendly church</h3>
+		<section id="landing">
+
+			<h2>Welcome to PCF!</h2>
+			<h3 id="motto">A friendly church</h3>
+
+			<img src="http://place-puppy.com/450x450">
 
 
-		<ol>
-			<li class="offering-item">Day Classes</li>
-			<li class="offering-item">Night Classes</li>
-			<li class="offering-item">Intro to Coding events</li>
+			<ol id="boothcamp-learning-list">
+				<li class="offering-item">Day Classes</li>
+				<li class="offering-item">Night Classes</li>
+				<li class="offering-item">Intro to Coding events</li>
 
 
-		</ol>
+			</ol>
+			<a href="#top">Back to Top</a>
 
+		</section>
 
 		<hr>
 
-		<h2>Register</h2>
-		<form>
-			<label for="firstname">First Name</label>
-			<input type="text" id="firstname" required autocomplete>
+		<section id="register">
 
-			<label for="firstname">Last Name</label>
-			<input type="text" id="lastname" required autocomplete>
+			<h2>Register</h2>
 
-			<label for="email">Email</label>
-			<input type="text" id="email" required autocomplete>
+			<form>
+				<br>
+				<label for="firstname">First Name</label>
+				<br>
+				<input type="text" id="firstname" required autocomplete>
+				<br>
+				<label for="firstname">Last Name</label>
+				<input type="text" id="lastname" required autocomplete>
+				<br>
+				<label for="email">Email</label>
+				<br>
+				<input type="text" id="email" required autocomplete>
+				<br>
+				<button type="submit">Apply Now</button>
 
-			<button type="submit">Apply Now</button>
 
 
+			</form>
 
-		</form>
+
+			<a href="#top">Back to Top</a>
+
+		</section>
 
 
 	</body>

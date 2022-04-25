@@ -2,8 +2,7 @@
 
 /*Type Selector - select the name of the tag*/
 h1 {
-	color:  yellow;
-	font-size: 100px;
+	text-align: center;
 }
 
 
@@ -70,3 +69,97 @@ type
 universal (Lowest priority)
 
 */
+
+/*adjacent sibling selector -> magkatabi sila*/
+/*sibling + sibling*/
+#motto + img {
+	height:  300px;
+	border-width: 300px;
+	border-radius: 150px;
+}
+
+
+/*Descendant Selector -> they have an ancestor matching*/
+#boothcamp-learning-list li {
+	color: #075966;
+}
+
+/*General Sibling Selector -> kahit hindi sila magkatabi, as long as sibling selector sila*/
+/*selector "~" (tilde symbol) selector*/
+
+h2 ~ a {
+	text-decoration: none;
+}
+
+/*Child Selector*/
+/*selector > selector*/
+form > label {
+	color: rgb(0, 0, 128);
+}
+
+/*multiple selector*/
+/*selector, selector*/
+h3, h2 {
+	font-style: italic;
+}
+
+body {
+	background-color: skyblue;
+}
+
+nav {
+	background-color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+div {
+	display: inline-block;
+	float: right;
+}
+
+h2 {
+	color: purple; !important;
+	text-align: center;
+	font-size:  2rem;
+}
+
+/*vh-> view height*/
+section {
+	height:  100vh;
+	text-align: center;
+}
+
+ol{
+	list-style-type: none;
+}
+
+form {
+	text-align: center;
+	background-color: white;
+	border: 2px solid black;
+
+	/*longhand of the property border*/
+	/*
+	border-width:2px;
+	border-style: solid;
+	border-color:  black;
+	*/
+
+	height: 185px;
+	/*vw ->view width*/
+	width: 25vw;
+	position: relative;
+	left: 37.25%;
+	margin-top: 1rem;
+}
+
+button {
+	background-color: #cf0053;
+	color: white;
+	border: 0;
+	border-radius: 15px; 
+	margin-top: 1rem;
+}
